@@ -38,6 +38,7 @@
 		E08028EB2552EEA9005262A1 /* FoodTruckerGoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTruckerGoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08028EF2552EEA9005262A1 /* FoodTruckerGoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckerGoodTests.swift; sourceTree = "<group>"; };
 		E08028F12552EEA9005262A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08028FA2552F51A005262A1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		E08028CC2552EEA8005262A1 = {
 			isa = PBXGroup;
 			children = (
+				E08028FA2552F51A005262A1 /* README.md */,
 				E08028D72552EEA8005262A1 /* FoodTruckerGood */,
 				E08028EE2552EEA9005262A1 /* FoodTruckerGoodTests */,
 				E08028D62552EEA8005262A1 /* Products */,
