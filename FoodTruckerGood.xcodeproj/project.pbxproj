@@ -14,6 +14,7 @@
 		E08028E22552EEA9005262A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08028E12552EEA9005262A1 /* Assets.xcassets */; };
 		E08028E52552EEA9005262A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08028E32552EEA9005262A1 /* LaunchScreen.storyboard */; };
 		E08028F02552EEA9005262A1 /* FoodTruckerGoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08028EF2552EEA9005262A1 /* FoodTruckerGoodTests.swift */; };
+		E08028FC25541C47005262A1 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = E08028FB25541C47005262A1 /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		E08028EF2552EEA9005262A1 /* FoodTruckerGoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckerGoodTests.swift; sourceTree = "<group>"; };
 		E08028F12552EEA9005262A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E08028FA2552F51A005262A1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E08028FB25541C47005262A1 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = ../../Downloads/03_WorkWithViewControllers/Images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		E08028CC2552EEA8005262A1 = {
 			isa = PBXGroup;
 			children = (
+				E08028FB25541C47005262A1 /* Images */,
 				E08028FA2552F51A005262A1 /* README.md */,
 				E08028D72552EEA8005262A1 /* FoodTruckerGood */,
 				E08028EE2552EEA9005262A1 /* FoodTruckerGoodTests */,
@@ -182,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08028FC25541C47005262A1 /* Images in Resources */,
 				E08028E52552EEA9005262A1 /* LaunchScreen.storyboard in Resources */,
 				E08028E22552EEA9005262A1 /* Assets.xcassets in Resources */,
 				E08028E02552EEA8005262A1 /* Main.storyboard in Resources */,
