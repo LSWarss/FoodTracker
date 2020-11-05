@@ -44,7 +44,7 @@ import UIKit
     //MARK: Button Action
     
     @objc func ratingButtonTapped(button: UIButton){
-        guard let index = ratingButtons.index(of: button) else {
+        guard let index = ratingButtons.firstIndex(of: button) else {
             fatalError("The button , \(button), is not in the ratingButtons array: \(ratingButtons)")
         }
         
@@ -82,7 +82,7 @@ import UIKit
         let highlightedStar = UIImage(named: "highlightedStar", in: bundle, compatibleWith: self.traitCollection)
         
         
-        for _ in 0..<starCount {
+        for index in 0..<starCount {
             // Create the button
             let button = UIButton()
             

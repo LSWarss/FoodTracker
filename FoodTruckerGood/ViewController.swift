@@ -17,6 +17,7 @@ class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControll
     @IBOutlet weak var mealNameLabel: UILabel!
     // This line tells Xcode that you can connect nameTextField property from Interface Builder(IB), weak is showing system that property can be unallocated,
     @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var ratingControl: RatingControl!
     @IBOutlet weak var photoImageView: UIImageView!
     
     override func viewDidLoad() {
@@ -84,12 +85,6 @@ class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControll
         present(imagePickerController, animated: true, completion: nil)
         
     }
-    
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        mealNameLabel.text = "Default value"
-    }
-    
-   
     
 }
 
