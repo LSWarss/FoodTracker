@@ -15,6 +15,7 @@
 		E08028E52552EEA9005262A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08028E32552EEA9005262A1 /* LaunchScreen.storyboard */; };
 		E08028F02552EEA9005262A1 /* FoodTruckerGoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08028EF2552EEA9005262A1 /* FoodTruckerGoodTests.swift */; };
 		E08028FC25541C47005262A1 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = E08028FB25541C47005262A1 /* Images */; };
+		E08028FE25542C9B005262A1 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08028FD25542C9B005262A1 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		E08028F12552EEA9005262A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E08028FA2552F51A005262A1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E08028FB25541C47005262A1 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = ../../Downloads/03_WorkWithViewControllers/Images; sourceTree = "<group>"; };
+		E08028FD25542C9B005262A1 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				E08028D82552EEA8005262A1 /* AppDelegate.swift */,
 				E08028DA2552EEA8005262A1 /* SceneDelegate.swift */,
 				E08028DC2552EEA8005262A1 /* ViewController.swift */,
+				E08028FD25542C9B005262A1 /* RatingControl.swift */,
 				E08028DE2552EEA8005262A1 /* Main.storyboard */,
 				E08028E12552EEA9005262A1 /* Assets.xcassets */,
 				E08028E32552EEA9005262A1 /* LaunchScreen.storyboard */,
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08028FE25542C9B005262A1 /* RatingControl.swift in Sources */,
 				E08028DD2552EEA8005262A1 /* ViewController.swift in Sources */,
 				E08028D92552EEA8005262A1 /* AppDelegate.swift in Sources */,
 				E08028DB2552EEA8005262A1 /* SceneDelegate.swift in Sources */,
