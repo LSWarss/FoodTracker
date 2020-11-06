@@ -10,11 +10,10 @@ import UIKit
 
 
 
-class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate{
+class MealViewController: UIViewController,UITextFieldDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate{
     
     //MARK: Properties
     
-    @IBOutlet weak var mealNameLabel: UILabel!
     // This line tells Xcode that you can connect nameTextField property from Interface Builder(IB), weak is showing system that property can be unallocated,
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var ratingControl: RatingControl!
@@ -38,7 +37,7 @@ class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControll
        }
        
     func textFieldDidEndEditing(_ textField: UITextField) {
-        mealNameLabel.text = textField.text
+        
        }
     
     
